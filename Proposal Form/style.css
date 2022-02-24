@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+
+.container {
+margin: 2% 14%;
+padding: 2%;
+border: 1px solid black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 12px;
+}
+
+.logo img {
+height: 80px;
+width: 80px;
+}
+
+.sec_1 {
+padding-bottom: 2px; /*%*/
+}
+
+
+.sec_1_top > p.heading {
+font-size: 10px; /*%*/
+font-weight: 800;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 1px; /*%*/
+padding-bottom: 2px; /*%*/
+}
+
+.sec_1_top > p.welcome {
+font-weight: 600;
+margin: 14px 0 0 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec_1_top li {
+list-style-position: inside;
+font-weight: 400;
+margin: 0 0 10px 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec_1_down {
+padding-top: 4px; /*%*/
+}
+
+.sec_1_bottom_left {
+float: left;
+width: 80%;
+}
+
+.grid-container-one {
+display: grid;
+grid-template-columns: 40% 20% 20% 20%;
+padding: 0px;
+}
+
+.grid-container-one > div {
+text-align: left;
+font-size: 14px;
+overflow: hidden;
+padding: 0 2%;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+border: 1px solid rgb(88, 83, 83);
+}
+
+.sec_1 input[type="text"] {
+border: none;
+box-sizing: border-box;
+margin: 0;
+}
+
+.sec_1 input[type="text"]:hover {
+border: none;
+width: 100%;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec_1 input[type="text"]:focus {
+border: none;
+width: 100%;
+background-color: #d3d3d3;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="checkbox"] {
+border: 1px solid black;
+font-size: large;
+}
+
+.item1 {
+grid-column: 1 / span 4;
+}
+
+.item7,
+.item9,
+.item11,
+.item13,
+.item19,
+.item21,
+.item23,
+.item25 {
+grid-column: 2 / span 3;
+}
+.item23 label {
+margin-right: 3%;
+font-size: 12px;
+}
+
+.item25 label {
+margin-right: 2%;
+font-size: 12px;
+}
+.item22,
+.item23 {
+grid-row: 11 / span 2;
+}
+
+.sec_1_bottom_right {
+border: 1px dotted black;
+float: right;
+width: 17%;
+font-size: 10px;
+padding: 2%;
+height: 70%;
+text-align: center;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container-two {
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.grid-container-two > div {
+text-align: left;
+font-size: 14px;
+border: 1px solid rgb(88, 83, 83);
+overflow: hidden;
+padding: 0 2%;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Section 2*/
+
+
+.head {
+margin: 19px 0 10px 0;
+background-color: rgb(252, 129, 47);
+font-weight: 700;
+font-size: 120%;
+text-align: center;
+padding: 5px;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.par_1 {
+font-size: 105%;
+}
+
+.mar {
+margin-top: 1%;
+margin-bottom: 1%;
+padding: 1% 0;
+}
+
+.entry {
+font-size: 14px;
+}
+
+.left {
+float: left;
+width: 20%;
+}
+
+.right {
+float: right;
+font-size: 17px;
+width: 80%;
+}
+.right label {
+margin-right: 2%;
+margin-bottom: 2%;
+font-size: 16px;
+}
+.right input[type="text"] {
+border: none;
+}
+
+.sec_1_4 {
+font-size: 14px;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#m1 {
+display: inline;
+float: left;
+width: 33.33%;
+padding-right: 2%;
+}
+.sp {
+display: inline-block;
+border-bottom: 1px solid black;
+width: 100%;
+overflow: hidden;
+}
+#m2 {
+display: inline;
+float: left;
+width: 33.33%;
+}
+#m2 > span {
+border-bottom: 1px solid black;
+display: inline-block;
+}
+#m3 {
+display: inline;
+float: right;
+width: 33.33%;
+}
+#m3 > span {
+border-bottom: 1px solid black;
+display: inline-block;
+}
+
+.sec_1_7 {
+font-size: 14px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec_1_8 , .sec_1_9 {
+font-size: 14px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sec_1_10 {
+font-size: 14px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
